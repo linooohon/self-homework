@@ -27,4 +27,3 @@
 
 其實只要 `mkdir wifi` `cd wifi` `touch afu.js` 就可以了，
 `pwd`只是確認現在位置，`ls`了解目前資料夾有什麼
-

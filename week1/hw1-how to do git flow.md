@@ -1,4 +1,4 @@
-##交作業流程##
+## 交作業流程 ##
 1. 在本地端建立自己的branch，不要在master上做作業，雖然我是自己一個人做操作，但還是練習用branch
 `git branch week1`
 2. 在這個branch做完作業，用什麼編輯器應該都行，主要作業要用.md做，練習markdown語法
