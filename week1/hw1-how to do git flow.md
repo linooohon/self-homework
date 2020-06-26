@@ -14,9 +14,9 @@
 ，並順勢刪除遠端名為week1的branch，這時候遠端master已被更新
 8. 回到本地，把本地branch切換到master
 `git checkout master`
-8. 再回到本地更新版本，把遠端master，pull下來
+9. 再回到本地更新版本，把遠端master，pull下來
 `git pull origin master`
-9. 本地切換到 master branch 刪除本地當週的 branch
+10. 本地切換到 master branch 刪除本地當週的 branch
 `git checkout master`
 `git branch -d week1`
-10. 之後交作業流程就是重複上述步驟
+11. 之後交作業流程就是重複上述步驟
