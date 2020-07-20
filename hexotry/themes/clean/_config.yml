@@ -1,0 +1,84 @@
+# Site config
+# ---------------------------------------------------------------
+
+# Title on top left of menu. Leave empty to use main blog title
+menu_title: 
+
+# URL of the Home page image
+index_cover: /img/home-bg.jpg
+
+# Set your own favicon
+favicon: /img/favicon.png
+
+# Site start year
+# Default with current year
+start_year: 
+
+# Post config
+# ---------------------------------------------------------------
+
+# Default post title
+default_post_title: Untitled
+
+# Enable post toc
+toc: true
+
+# Post meta
+post_info:
+  word_count: false
+  read_time: false
+
+# Enable post mathjax render
+mathjax:
+  enable: false
+  cdn: //cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+# Comments. Choose one by filling up the information
+comments:
+  # Disqus comments
+  disqus:
+    enable: false
+    shortname: 
+  # Gitalk
+  gitalk:
+    enable: false
+    owner:
+    repo:
+    oauth:
+      accessToken:
+      clientId:
+      clientSecret:
+    admin:
+
+# Footer config
+# ---------------------------------------------------------------
+footer:
+  author:
+  menu:
+    Home: /
+    Archives: /archives
+    Tags: /tags
+    Categories: /categories
+    About: /about
+  social_link:
+    twitter_url:
+    twitter_handle:
+    facebook_url:
+    github_url:
+    gitlab_url:
+    linkedin_url: 
+    mailto:
+
+# Tracking config
+# ---------------------------------------------------------------
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Busuanzi Statistics
+busuanzi:
+  enable: false
+  cdn: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+  site_views: false
+  site_visitors: false
+  post_views: false
