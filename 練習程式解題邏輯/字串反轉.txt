@@ -1,0 +1,19 @@
+/* 
+1. 給的數字為一陣列
+2. 陣列裡的數字反轉
+3. 印出反轉後的陣列
+*/
+
+/* 
+1. let array = []
+2. [a, b, c] inverse = array.inverse
+3. print array.inverse
+*/
+
+correct:
+
+let s = ''                   先宣告一個字串
+for (i from n-1 to 0) do     假設字串為 1, 2, 3
+  s += str[i]                會從 str[2]開始看，s 依序為 '3', '3, 2', '3, 2, 1'
+end for
+print s                     最後印出 s
