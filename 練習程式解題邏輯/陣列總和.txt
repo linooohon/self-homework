@@ -1,0 +1,21 @@
+/*
+1. 令一串數字為一陣列
+2. 給一串數字
+3. 陣列裡的數字全部相加 = 總和
+4. 印出總和
+*/
+
+/*
+1. let number = []
+2. number = a, b, c
+3. a+b+c = total
+4. print total
+*/
+
+correct:
+
+let sum = 0
+for (i from 0 to n-1) do   2.3
+  sum += arr[i]            2.3
+end for                   
+print sum                  4
