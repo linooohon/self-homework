@@ -20,7 +20,7 @@ const { finished } = require("stream")
 7. print maxnumber
 */
 
-correct:
+correct pseudo code:
 
 let max = arr[0]            2
 for (i from 0 to n-1) do    1.3
@@ -29,3 +29,15 @@ for (i from 0 to n-1) do    1.3
   end if                    4.5 finished
 end for                     6
 print max                   7
+
+
+
+js code:
+
+let max = arr[0]
+for (let i=0; i<arr.length; i++) {
+  if (arr[i] > max) {
+    max = arr[i]
+  }
+}
+console.log(max)
