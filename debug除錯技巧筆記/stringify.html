@@ -1,0 +1,28 @@
+<script>
+    let arr = [2, 7, 5]
+    console.log(JSON.stringify(arr)) // "[2, 7, 5]"
+    let max = arr[0]
+    for (let i=0; i<arr.length; i++) {
+      if (arr[i] > max) {
+        max = arr[i]
+      }
+    }
+    arr.push(3) //[2, 7, 5, 3]
+    console.log(max)
+
+
+    /*
+    透過 JSON.stringify()，
+    可以防止用 console.log 印出東西來 debug 時
+    在開啟 dev tool 時會發生的一個問題，
+    就是有時跑到某個步驟印的東西和實際不一樣，或有前後不依的問題，
+    因為 dev tool 顯示的是 程式碼最後的結果，所以以上面的例子來說
+    如果不加 JSON.stringify()，
+    會讓那一行 console.log 的 arr 有包括後面才加的 arr.push(3) 
+    顯示成 [2, 7, 5, 3] ，但實際在那一行我們只是想知道目前的 arr ，
+    至於 arr.push(3) 是後面才會發生的事，所以避免除錯時的這個小疑惑發生
+    我們會加 JSON.stringify() 使印出來的東西變成一個字串，就不會出錯。
+    */
+
+</script>
+
